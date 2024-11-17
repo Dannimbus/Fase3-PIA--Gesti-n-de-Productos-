@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Productos - Las Hijas del Sol</title>
+    <link rel="stylesheet" href="GPstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <!-- Logo alineado a la izquierda -->
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg" alt="Logo" width="70" height="70" class="me-2">
+            </a>
+
+            <!-- Texto centrado -->
+            <div class="mx-auto">
+                <span class="navbar-text fs-4">Las Hijas del Sol</span>
+            </div>
+
+            <a href="#" class="btn btn-secondary">ADMIN</a>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row" id="product-list">
+            <!-- Las tarjetas dinámicas se renderizan aquí -->
+        </div>
+
+        <div class="mt-4">
+            <button class="btn btn-add w-100" id="add-product">
+                <i class="bi bi-plus-circle"></i> Agregar Producto
+            </button>
+        </div>
+    </div>
+
+    <footer class="footer-custom py-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h6>Categorías</h6>
+                    <ul class="list-unstyled">
+                        <li>UI design</li>
+                        <li>UX design</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Conócenos</h6>
+                    <ul class="list-unstyled">
+                        <li>Design</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contáctanos</h6>
+                    <ul class="list-unstyled">
+                        <li>Blog</li>
+                        <li>Best practices</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="GPscript.js"></script>
+</body>
+
+</html>

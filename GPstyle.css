@@ -1,0 +1,125 @@
+.navbar-custom {
+    background-color: #d9a9a9;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-admin {
+    background-color: #d58585;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-admin:hover {
+    background-color: #777;
+}
+
+/* Ajuste general del contenedor */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilo para las tarjetas */
+.card {
+    background-color: #f3e5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* Garantiza que los elementos internos se distribuyan verticalmente */
+    height: 100%;
+    /* Hace que todas las tarjetas ocupen el mismo tamaño */
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    /* Tamaño uniforme para las imágenes */
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.card .card-body {
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    /* Permite que el contenido interno se distribuya proporcionalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Espacia los elementos del contenido */
+}
+
+.card .card-body h5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.card .card-body p {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin: 0;
+}
+
+.card .btn-edit {
+    background-color: #d8bfbf;
+    border: none;
+    color: white;
+    font-size: 0.85rem;
+    border-radius: 10px;
+    padding: 5px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.card .btn-edit:hover {
+    background-color: #b89f9f;
+}
+
+.btn-add {
+    background-color: #673ab7;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-add:hover {
+    background-color: #512da8;
+}
+
+.footer-custom {
+    background-color: #b98989;
+    color: white;
+}
+
+.footer-custom h6 {
+    font-weight: bold;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-custom {
+    margin-top: auto;
+    background-color: #b98989;
+    color: white;
+    text-align: center;
+}
